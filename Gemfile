@@ -15,6 +15,7 @@ gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'unicorn'
 gem 'foreman', group: :development
+gem 'thor'
 
 # specify the ruby version for Heroku
 ruby "2.1.4"
