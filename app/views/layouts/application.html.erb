@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chips</title>
+  <title>The Premier Guide to Metro Nashville's Mexican Restaurants</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+  <%= yield %>
 
+  <footer>
+    <p><em>Disclaimer: All restaurant locations are approximate. No somos responsables de su diarrea. Coma en su propio riesgo.<em></p>
+    <p>&copy; <%= Date.today.strftime("%Y") %> Chacho Harrod &amp; Timo McAlilly</p>
+  </footer>
 </body>
 </html>
