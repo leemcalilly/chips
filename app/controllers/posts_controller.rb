@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
-  def las_maracas
+  layout "post"
+
+  def las_maracas_family_dollar
   end
 end

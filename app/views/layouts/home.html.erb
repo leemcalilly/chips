@@ -1,0 +1,25 @@
+<%= render "layouts/html_header" %>
+
+<body>
+  <%= render "layouts/nav" %>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>&iexcl;Bienvenidos!</h1>
+      <p>Your trusted source for Mexican restaurant reviews in metro Nashville.</p>
+      <p><a class="btn btn-primary btn-lg" href="/reviews" role="button">First I Would Like to Start With a Basket of Chips &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <%= yield %>
+      </div>
+    </div>
+
+    <%= render "layouts/footer" %>
+  </div> <!-- /container -->
+
+</body>
+</html>
