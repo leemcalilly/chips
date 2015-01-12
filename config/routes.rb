@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # Pages
   root to: "pages#home"
-  get '/reviews', to: 'pages#reviews'
+  get '/rankings', to: 'pages#rankings'
   get '/banos', to: 'pages#banos'
 
   # Posts
@@ -11,6 +11,6 @@ Rails.application.routes.draw do
   get '/las-palmas-franklin-rd', to: 'posts#las_palmas_franklin_rd'
   get '/little-mexico', to: 'posts#little_mexico'
   get '/rose-pepper', to: 'posts#rose_pepper'
-  get '/chuys', to: 'posts#chuys_midtown'
+  get '/chuys-midtown', to: 'posts#chuys_midtown'
 
 end

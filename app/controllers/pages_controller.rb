@@ -3,7 +3,7 @@ class PagesController < ApplicationController
     render :layout => 'home'
   end
 
-  def reviews
+  def rankings
   end
 
   def banos
