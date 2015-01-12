@@ -18,4 +18,7 @@ class PostsController < ApplicationController
 
   def rose_pepper
   end
+
+  def chuys_midtown
+  end
 end
