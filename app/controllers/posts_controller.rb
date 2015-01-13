@@ -1,6 +1,9 @@
 class PostsController < ApplicationController
   layout "post"
 
+  def chuys_midtown
+  end
+
   def cinco_de_mayo_cummins_station
   end
 
@@ -16,9 +19,7 @@ class PostsController < ApplicationController
   def little_mexico
   end
 
-  def rose_pepper
+  def rosepepper
   end
 
-  def chuys_midtown
-  end
 end
