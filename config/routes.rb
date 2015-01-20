@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/chuys-midtown', to: 'posts#chuys_midtown'
   get '/cinco-de-mayo-cummins-station', to: 'posts#cinco_de_mayo_cummins_station'
   get '/el-torero', to: 'posts#el_torero'
+  get '/la-hacienda', to: 'posts#la_hacienda'
   get '/las-maracas-family-dollar-1184', to: 'posts#las_maracas_family_dollar_1184'
   get '/las-palmas-franklin-rd', to: 'posts#las_palmas_franklin_rd'
   get '/little-mexico', to: 'posts#little_mexico'
