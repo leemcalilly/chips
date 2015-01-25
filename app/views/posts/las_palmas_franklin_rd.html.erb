@@ -6,152 +6,65 @@
 </div>
 
 <div class="container">
-  <section class="intro">
-    <div class="row">
-      <div class="col-md-8">
-        <p>We left El Torero feeling like The Pet Shop boys and asking ourselves, "<a href="https://www.youtube.com/watch?v=Wn9E5i7l-Eg">What did [we] do to deserve this?</a>" Walking up to the front door we first noticed the bathroom tile on the exterior facade. Stepping inside, Nacho startled himself with an accidental camera flash while attempting to get a photo of the restaurant's 70s-lake-house wood paneling.</p>
-        <p>As we sauntered to the very last booth in the back where the ambience was better because there were a couple of burned out can lights, a huge ball of fire erupted from a wok in the kitchen. We were soon approached by a man sweating profusely and wearing a hairnet. Clearly this place cares about customer service. They have the same employee that cooks your food serve it to you. A dedicated employee ensures your meal meets their low standards all the way from bag of frozen chicken terriyaki to your tortilla.</p>
-      </div>
-
-      <div class="col-md-4">
-        <p><strong>Chips and Salsa:</strong> 3.5<br>
-          Salsa was pretty good and spicy.</p>
-        <p><strong>House Margarita:</strong> 3<br>
-          Because we liked the glass.</p>
-        <p><strong>&iquest; Si or No?</strong> No.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="tips">
-    <div class="row">
-      <div class="col-md-8">
-        <h3>Nacho's Tip</h3>
-        <p>
-          Go to the booth in the far back right if you need to charge your device. There's a half-uncovered electrical outlet on level with the seat.</p>
+  <div class="row">
+    <div class="col-sm-8 main-col">
+      <section class="intro">
+        <p class="lead">
+          We left El Torero feeling like The Pet Shop boys and asking ourselves, "<a href="https://www.youtube.com/watch?v=Wn9E5i7l-Eg">What did [we] do to deserve this?</a>" Walking up to the front door we first noticed the bathroom tile on the exterior facade. Stepping inside, Nacho startled himself with an accidental camera flash while attempting to get a photo of the restaurant's 70s-lake-house wood paneling.
         </p>
+        <p>
+          As we sauntered to the very last booth in the back where the ambience was better because there were a couple of burned out can lights, a huge ball of fire erupted from a wok in the kitchen. We were soon approached by a man sweating profusely and wearing a hairnet. Clearly this place cares about customer service. They have the same employee that cooks your food serve it to you. A dedicated employee ensures your meal meets their low standards all the way from bag of frozen chicken terriyaki to your tortilla.
+        </p>
+      </section>
 
+      <section class="nachos-tip">
+        <h3>Nacho's Tip</h3>
+        <p>Go to the booth in the far back right if you need to charge your device. There's a half-uncovered electrical outlet on level with the seat.</p>
+      </section>
+
+      <section class="chachos-truth">
         <h3>Chacho's Truth</h3>
         <ul>
-          <li>Guac is the standard blender guac they leave in the fridge.</li>
-          <li>This place has extremely small portions of beans and rice.</li>
-          <li>Nacho was ecstatic when Taylor Swift's "Shake it Off" came on the radio in the kitchen. The dining room had traditional ranchero music, which says a lot for ranchero music.</li>
-          <li>The chips, menus, and tortillas are unnecessarily large.</li>
-          <li>The menus have little Hunts tomato and Land O'Lakes logos on them for no apparent reason.</li>
-          <li>We forgot to time it but per usual food came out really fast.</li>
-          <li>They pay $21 per square foot in rent.</li>
-          <li>This establishment serves Cherry Coke and milkshakes.</li>
-          <li>The basket for the chips looks like they bought it at a church supply store.</li>
-          <li>Don't eat at Mexican restaurants that have woks.</li>
-          <li>You can't hack your life.</li>
+          <li>Truth #1</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="col-md-4">
+      <section class="photos">
+        <%= render "posts/photos/las_palmas_franklin_rd_photos" %>
+      </section>
+    </div><!-- /.main-col -->
+
+    <div class="sidebar col-sm-3 col-sm-offset-1">
+      <section class="ratings">
+        <p>
+          <strong>Chips and Salsa</strong> [RATING HERE] <br>
+          [COMMENTS ON CHIPS AND SALSA]
+        </p>
+        <p>
+          <strong>House Margarita</strong> 2<br>
+          [COMMENTS ON MARGS]
+        </p>
+        <p><strong>Si or No?</strong> [ANSWER HERE]</p>
+      </section>
+
+
+      <section class="quotes well">
         <p>
           <strong>What Chacho Said</strong><br>
-          "<em>The windows had the longest consecutive strand of blinds I've ever seen.</em>"
+          "<em>[CHACHO QUOTE]</em>"
         </p>
-        <br>
+
         <p>
           <strong>What Nacho Said</strong><br>
-          "<em>We talked shit about the food the whole meal but we finished the guac, cleaned our plates, ate the basket of chips, and went in for a salsa refill.</em>"
+          "<em>[NACHO QUOTE]</em>"
         </p>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="photos">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-1.jpg", alt: "The front door")%>
-          <div class="caption">
-            <p>The front door</p>
-          </div>
-        </div>
+      <%= render "posts/mailchimp" %>
+      <hr>
+      <%= render "posts/disqus" %>
 
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-2.jpg", alt: "The menu")%>
-          <div class="caption">
-            <p>El menu</p>
-          </div>
-        </div>
+    </div><!-- /.sidebar -->
 
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-3.jpg", alt: "the margaritas")%>
-          <div class="caption">
-            <p>La Margaritas</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-4.jpg", alt: "Our food")%>
-          <div class="caption">
-            <p>Our food</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-5.jpg", alt: "The toilet")%>
-          <div class="caption">
-            <p>The toilet</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-6.jpg", alt: "The sink in the bathroom")%>
-          <div class="caption">
-            <p>The sink in the bathroom</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-7.jpg", alt: "Leftovers")%>
-          <div class="caption">
-            <p>Leftovers</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-8.jpg", alt: "The chips")%>
-          <div class="caption">
-            <p>A basket of chips</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-9.jpg", alt: "The salsa")%>
-          <div class="caption">
-            <p>El salsa</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-10.jpg", alt: "The guacamole")%>
-          <div class="caption">
-            <p>The guac</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-11.jpg", alt: "A queso drip")%>
-          <div class="caption">
-            <p>A queso drip</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-palmas-franklin-rd/las-palmas-franklin-rd-12.jpg", alt: "View from the Kroger parking lot")%>
-          <div class="caption">
-            <p>View from the Kroger parking lot</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <%= render "posts/disqus" %>
-      </div><!-- /.col-md-4 -->
-    </div>
-  </section>
-</div> <!-- /container -->
+  </div><!-- /.row -->
+</div><!-- /.container -->
