@@ -22,4 +22,7 @@ class PostsController < ApplicationController
   def rosepepper
   end
 
+  def taco_mamacita
+  end
+
 end

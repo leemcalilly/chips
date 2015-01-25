@@ -58,10 +58,10 @@ $brand-primary:         $rust
 //## Font, line-height, and color for body text, headings, and more.
 
 $font-family-sans-serif:  "brandon-grotesque", "Helvetica", Arial, sans-serif
-//$font-family-serif:       Georgia, "Times New Roman", Times, serif
+$font-family-serif: Georgia, "Times New Roman", Times, serif
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-// $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
-$font-family-base: "ff-meta-web-pro", "Helvetica", Arial, sans-serif
+$font-family-monospace: "Courier New", monospace
+$font-family-base: $font-family-monospace
 
 // $font-size-base:          14px
 // $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
@@ -80,7 +80,7 @@ $font-family-base: "ff-meta-web-pro", "Helvetica", Arial, sans-serif
 // $line-height-computed:    floor(($font-size-base * $line-height-base)) // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    $font-family-sans-serif
+$headings-font-family:    $font-family-monospace
 // $headings-font-weight:    500
 // $headings-line-height:    1.1
 // $headings-color:          inherit

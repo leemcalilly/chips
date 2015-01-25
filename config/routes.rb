@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   get '/las-palmas-franklin-rd', to: 'posts#las_palmas_franklin_rd'
   get '/little-mexico', to: 'posts#little_mexico'
   get '/rosepepper', to: 'posts#rosepepper'
+  get '/taco-mamacita', to: 'posts#taco_mamacita'
 
 end
