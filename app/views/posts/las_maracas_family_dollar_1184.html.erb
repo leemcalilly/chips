@@ -1,4 +1,4 @@
-<div class="jumbotron las-maracas-family-dollar-banner">
+<div class="jumbotron las-maracas-family-dollar-1184-banner">
   <div class="container">
     <h1>Las Maracas <small>&#x20b1; &#x20b1;</small></h1>
     <h2>On Gallatin Road, next to the Family Dollar and the VERY small Pizza Hut. See picture below as you can’t miss it.</h2>
@@ -6,166 +6,54 @@
 </div>
 
 <div class="container">
-  <section class="intro">
-    <div class="row">
-      <div class="col-md-8">
-        <p>This place is excellent. The parking situation could be better, with warnings regarding parking anywhere other than four spots near the deck, but figure it out, and go inside. It’s worth it. Other than the giant ones painted on the side of the building I saw no actual maracas(es?) maraca (?) inside, which was a relief. There are no frills: just laminate tables, an unseen bar behind a wall, two main dining rooms and a large outside patio/deck which is enclosed with Visqueen (often misspelled visquine) for the winter months. Food and drink specials appear daily. Notably adding to the vibe were a caballero, four loud drunks and a bunch of families. The menu is hilariously oversized - even for your standard Mexican restaurant. Counting specials, one could eat at Las Maracas three times a week for an entire year and never order the same thing.</p>
-        <h3>What Chacho Said</h3>
-        <p>"Let’s start at the beginning - the chips and salsa here are good. The chips are neutral in all respects: somewhat corny, lightly salted and medium in texture. The Salsa is great. It’s a little bit spicy and does not taste like catsup. I’m sure Nacho told you all about the guacamole, so i’ll leave that between you two. The house margarita tasted like the mix you buy at Kroger, but not overly so. It was pretty middle of the road for Southern US Mexican food restaurants, which is to say, satisfying if you are in the mood for one. It was the color of the inside of a lime which I suppose is a good sign."</p>
+  <div class="row">
+    <div class="col-sm-8 main-col">
+      <section class="intro">
+        <p class="lead">This place is excellent. The parking situation could be better, with warnings regarding parking anywhere other than four spots near the deck, but figure it out, and go inside. It’s worth it.</p>
+        <p>Other than the giant maracas painted on the side of the building we saw no actual maracas(es?) maraca (?) inside, which was a relief. There are no frills: just laminate tables, an unseen bar behind a wall, two main dining rooms and a large outside patio/deck which is enclosed with Visqueen (often misspelled visquine) for the winter months. Food and drink specials appear daily. Notably adding to the vibe were a caballero, four loud drunks and a bunch of families. The menu is hilariously oversized - even for your standard Mexican restaurant. Counting specials, one could eat at Las Maracas three times a week for an entire year and never order the same thing.</p>
+      </section>
 
-        <h3>What Nacho Said</h3>
-        <p>"My meal was fantastic. Beleaguered by the sheer size of the menu, I was tempted to order the “American Plate” just to see what happened, but surprised even myself by ordering the T-Bone Steak Ranchero. No attempt was made to request a cooking temp for the steak, but it was nonetheless fantastic. Covered in a sauce that was a sort of mix between enchilada sauce and hot sauce, and served with tortillas, I made a couple soft tacos, then just went for it with the steak. The food was great, and to the table in under 6 minutes from the time of order."</p>
-      </div>
+      <section class="nachos-tip">
+        <h3>Nacho's Tip</h3>
+        [NACHO'S TIP]
+      </section>
 
-      <div class="col-md-4">
+      <section class="chachos-truth">
+        <h3>Chacho's Truth</h3>
+        [CHACHO'S TRUTHS]
+      </section>
+
+      <section class="photos">
+        <%= render "posts/photos/las_maracas_family_dollar_1184_photos" %>
+      </section>
+    </div><!-- /.main-col -->
+
+    <div class="sidebar col-sm-3 col-sm-offset-1">
+      <section class="ratings">
         <p><strong>Chips and Salsa</strong> 3</p>
         <p><strong>House Margarita</strong> 2<br>
           (if we go lower than 2 on this there's not gonna be any room for Las Palmas on Franklin Road. It wasn't best margarita though.)</p>
         <p><strong>Si or No?</strong> Si</p>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="photos">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-1.jpg", alt: "The guac, queso, and salsa")%>
-          <div class="caption">
-            <p>Trio of dips</p>
-          </div>
-        </div>
 
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-2.jpg", alt: "The T-Bone Ranchero")%>
-          <div class="caption">
-            <p>The T Bone Ranchero. This ranchero sauce was excellent.</p>
-          </div>
-        </div>
+      <section class="quotes well">
+        <p>
+          <strong>What Chacho Said</strong><br>
+          "<em>Let’s start at the beginning - the chips and salsa here are good. The chips are neutral in all respects: somewhat corny, lightly salted and medium in texture. The Salsa is great. It’s a little bit spicy and does not taste like catsup. I’m sure Nacho told you all about the guacamole, so i’ll leave that between you two. The house margarita tasted like the mix you buy at Kroger, but not overly so. It was pretty middle of the road for Southern US Mexican food restaurants, which is to say, satisfying if you are in the mood for one. It was the color of the inside of a lime which I suppose is a good sign.</em>"
+        </p>
 
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-3.jpg", alt: "A salsa spill")%>
-          <div class="caption">
-            <p>Our first salsa spill.</p>
-          </div>
-        </div>
+        <p>
+          <strong>What Nacho Said</strong><br>
+          <p>"<em>My meal was fantastic. Beleaguered by the sheer size of the menu, I was tempted to order the “American Plate” just to see what happened, but surprised even myself by ordering the T-Bone Steak Ranchero. No attempt was made to request a cooking temp for the steak, but it was nonetheless fantastic. Covered in a sauce that was a sort of mix between enchilada sauce and hot sauce, and served with tortillas, I made a couple soft tacos, then just went for it with the steak. The food was great, and to the table in under 6 minutes from the time of order.</em>"
+        </p>
+      </section>
 
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-4.jpg", alt: "Queso spill")%>
-          <div class="caption">
-            <p>Queso dripping</p>
-          </div>
-        </div>
+      <%= render "posts/mailchimp" %>
+      <hr>
+      <%= render "posts/disqus" %>
 
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-5.jpg", alt: "The menu")%>
-          <div class="caption">
-            <p>Mexican typography</p>
-          </div>
-        </div>
+    </div><!-- /.sidebar -->
 
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-6.jpg", alt: "The ambience")%>
-          <div class="caption">
-            <p>The ambience.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-7.jpg", alt: "Gotta serve Pacifico")%>
-          <div class="caption">
-            <p>Pacifico is key.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-8.jpg", alt: "The chips")%>
-          <div class="caption">
-            <p>Basket of chips</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-9.jpg", alt: "The salsa")%>
-          <div class="caption">
-            <p>El Salsa</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-10.jpg", alt: "Patrons")%>
-          <div class="caption">
-            <p>The place was full, but the food was quick.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-11.jpg", alt: "The Margaritas")%>
-          <div class="caption">
-            <p>Margs</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-12.jpg", alt: "Coke glasses")%>
-          <div class="caption">
-            <p>Coke sponsored the tap water.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-13.jpg", alt: "Exterior wall")%>
-          <div class="caption">
-            <p>You can see the phone number from a mile away.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-14.jpg", alt: "Bathroom sink")%>
-          <div class="caption">
-            <p>The bathroom was on the cleaner side.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-15.jpg", alt: "The bathroom door.")%>
-          <div class="caption">
-            <p>The bathroom door.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-16.jpg", alt: "Slogan on the wall.")%>
-          <div class="caption">
-            <p>Slogan on the wall.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-17.jpg", alt: ">Urinal in the men's bathroom..")%>
-          <div class="caption">
-            <p>Urinal in the men's bathroom.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-18.jpg", alt: "Our food")%>
-          <div class="caption">
-            <p>A solid entree.</p>
-          </div>
-        </div>
-
-        <div class="thumbnail">
-          <%=image_tag("las-maracas-family-dollar/las-maracas-family-dollar-19.jpg", alt: "A salsa spill")%>
-          <div class="caption">
-            <p>Another view of the salsa spill.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <%= render "posts/disqus" %>
-      </div><!-- /.col-md-4 -->
-    </div>
-  </section>
-</div> <!-- /container -->
+  </div><!-- /.row -->
+</div><!-- /.container -->
