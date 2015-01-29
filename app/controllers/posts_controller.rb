@@ -10,6 +10,9 @@ class PostsController < ApplicationController
   def el_torero
   end
 
+  def la_hacienda_obama
+  end
+
   def las_maracas_family_dollar_1184
   end
 
