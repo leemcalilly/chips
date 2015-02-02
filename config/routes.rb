@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root to: "pages#home"
   get '/rankings', to: 'pages#rankings'
   get '/banos', to: 'pages#banos'
+  get '/about', to: 'pages#about'
+  get '/mr-aguila', to: 'pages#mr-aguila'
 
   # Posts
   get '/chuys-midtown', to: 'posts#chuys_midtown'
