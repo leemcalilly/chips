@@ -1,0 +1,79 @@
+<% provide(:title, "Review of Chili's on West End in Nashville") %>
+
+<div class="jumbotron chilis-west-end-banner">
+  <div class="container">
+    <h1>Chili's</h1>
+    <h2>Half a mile up the road from the interstate car dealerships</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 main-col">
+      <section class="intro">
+        <p class="lead">
+          Remember that time you tried to go to the Cathedral on West End for Mass and didn't realize what time it started, so you showed up 45 minutes late, skipped and went to the Chilis on West End?
+        </p>
+        <p>
+          How about that engagement photo sesh in Centennial park? (Never did get the grass stains out from that fall off the Parthenon steps, huh?)
+        </p>
+      <p>
+        What about the time when you rented three Redbox rom-coms on a Sunday and took some Cajun chicken pasta to go? You cried a couple times that day, didn't you? Are we speaking to you or just to ourselves? Any self-respecting Nashvillian has eaten here for one reason or another. Al Gore eats here all the time.
+      </p>
+      </section>
+
+      <section class="nachos-tip">
+        <h3>Nacho's Tip</h3>
+        <p>Something about the beans.</p>
+      </section>
+
+      <section class="chachos-truth">
+        <h3>Chacho's Truth</h3>
+        <ul>
+          <li>While there was some new device your pep-pep might call an iPad sitting on the table, there was an actual human who took our order. At the end of the evening we paid the device rather than the waiter.</li>
+          <li>The queso tasted like boy-scout-camp beef stroganoff.</li>
+          <li>The two-for-one drinks are actually two 8oz mugs each with a false bottom. So you're just getting a standard 16oz pt glass.</li>
+          <li>We visited on the coldest day of winter. Nacho couldn't get Mr. Aguila to start that morning.</li>
+          <li>Your most important step is the first one.</li>
+        </ul>
+      </section>
+
+      <section class="photos">
+        <%= render "posts/photos/chilis_west_end_photos" %>
+      </section>
+    </div><!-- /.main-col -->
+
+    <div class="sidebar col-sm-3 col-sm-offset-1">
+      <section class="ratings">
+        <p><strong>Chips and Salsa:</strong><br>
+          <em>2.5 out of 5 chips</em><br>
+          Thin and greasy.</p>
+        <p><strong>House Margarita:</strong><br>
+          <em>1.5 out of 5 limes</em><br>
+          Nacho almost screamed when he took his first sip.</p>
+        <p><strong>&iquest; Si or No?</strong><br>
+          <em>No, but like <a href="http://fiftyshadesofgrey.wikia.com/wiki/Christian_Grey">Christian Grey</a> you may have very perculiar tastes.</em>
+        </p>
+      </section>
+
+
+      <section class="quotes well">
+        <p>
+          <strong>What Chacho Said</strong><br>
+          "<em>Ever seen a Ziosk explode?</em>"
+        </p>
+
+        <p>
+          <strong>What Nacho Said</strong><br>
+          "<em>I'm eating way more than expected.</em>"
+        </p>
+      </section>
+
+      <%= render "posts/mailchimp" %>
+      <hr>
+      <%= render "posts/disqus" %>
+
+    </div><!-- /.sidebar -->
+
+  </div><!-- /.row -->
+</div><!-- /.container -->

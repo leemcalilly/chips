@@ -1,6 +1,9 @@
 class PostsController < ApplicationController
   layout "post"
 
+  def chilis_west_end
+  end
+
   def chuys_midtown
   end
 

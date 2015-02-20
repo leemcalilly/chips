@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/mr-aguila', to: 'pages#mr-aguila'
 
   # Posts
+  get '/chilis-west-end', to: 'posts#chilis_west_end'
   get '/chuys-midtown', to: 'posts#chuys_midtown'
   get '/cinco-de-mayo-cummins-station', to: 'posts#cinco_de_mayo_cummins_station'
   get '/el-torero', to: 'posts#el_torero'
