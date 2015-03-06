@@ -1,0 +1,70 @@
+<% provide(:title, "Review of Butcher Town Hall on Fourth Avenue North in Nashville") %>
+
+<div class="jumbotron butcher-town-hall-banner">
+  <div class="container">
+    <h1>Butchertown Hall</h1>
+    <h2>[DIRECTIONS]</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 main-col">
+      <section class="intro">
+        <p class="lead">
+          [LEAD]
+        </p>
+        <p>
+          [DESCRIPTION]
+        </p>
+      </section>
+
+      <section class="nachos-tip">
+        <h3>Nacho's Tip</h3>
+        [NACHO'S TIP]
+      </section>
+
+      <section class="chachos-truth">
+        <h3>Chacho's Truth</h3>
+        [CHACHO'S TRUTHS]
+      </section>
+
+      <section class="photos">
+        <%= render "posts/photos/butcher_town_hall_photos" %>
+      </section>
+    </div><!-- /.main-col -->
+
+    <div class="sidebar col-sm-3 col-sm-offset-1">
+      <section class="ratings">
+        <p>
+          <strong>Chips and Salsa</strong>  3.25 out of 5 chips<br>
+          They have good drinks and meats, but the
+        </p>
+        <p>
+          <strong>House Margarita</strong> [RATING HERE]<br>
+          [COMMENTS ON MARGS]
+        </p>
+        <p><strong>Si or No?</strong> [ANSWER HERE]</p>
+      </section>
+
+
+      <section class="quotes well">
+        <p>
+          <strong>What Chacho Said</strong><br>
+          "<em>[CHACHO QUOTE]</em>"
+        </p>
+
+        <p>
+          <strong>What Nacho Said</strong><br>
+          "<em>[NACHO QUOTE]</em>"
+        </p>
+      </section>
+
+      <%= render "posts/mailchimp" %>
+      <hr>
+      <%= render "posts/disqus" %>
+
+    </div><!-- /.sidebar -->
+
+  </div><!-- /.row -->
+</div><!-- /.container -->
